@@ -80,9 +80,9 @@ class Clock:
         display_lines = ["", "", ""]
         for char in char_hour:
             if char in dict_hour:
-                numar = dict_hour[char]
+                number = dict_hour[char]
                 for i in range(3):
-                    display_lines[i] += numar[i] + "   "
+                    display_lines[i] += number[i] + "   "
         for line in display_lines:
             print(line)
 
