@@ -1,1 +1,2 @@
-Display current hour as text using following characters: "_" , "o" and "|".
+# Digital Clock
+- Display current hour as text using following characters: "_" , "o" and "|".
